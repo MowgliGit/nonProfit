@@ -61,7 +61,7 @@ function App() {
     },
   ];
   return (
-    <Router>
+    <Router basename="/nonProfit">
       <Routes>
         <Route path="/" element={<HomePage menu={menu} />} />
         <Route path="/about" element={<AboutPage />} />
